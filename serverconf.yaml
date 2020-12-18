@@ -1,2 +1,5 @@
 Defaults:
   policyProject: 'DefaultPolicies'
+BrokerRegistry:
+  mqKeyRepository: '/home/aceuser/keystores/ace-server'
+
