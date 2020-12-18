@@ -7,8 +7,8 @@
     <listenerPortNumber>1414</listenerPortNumber>
     <channelName>DEV.APP.SVRCONN</channelName>
     <securityIdentity>customer-details</securityIdentity>
-    <useSSL>false</useSSL>
+    <useSSL>true</useSSL>
     <SSLPeerName></SSLPeerName>
-    <SSLCipherSpec></SSLCipherSpec>
+    <SSLCipherSpec>ECDHE_RSA_AES_256_CBC_SHA384</SSLCipherSpec>
   </policy>
 </policies>
