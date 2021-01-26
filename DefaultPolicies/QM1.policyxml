@@ -3,7 +3,7 @@
   <policy policyType="MQEndpoint" policyName="QM1" policyTemplate="MQEndpoint">
     <connection>CLIENT</connection>
     <destinationQueueManagerName>QM1</destinationQueueManagerName>
-    <queueManagerHostname>eaglebank-mq-ibm-mq.mq-volvo</queueManagerHostname>
+    <queueManagerHostname>eaglebank-mq-ibm-mq.mq</queueManagerHostname>
     <listenerPortNumber>1414</listenerPortNumber>
     <channelName>DEV.APP.SVRCONN</channelName>
     <securityIdentity>customer-details</securityIdentity>
