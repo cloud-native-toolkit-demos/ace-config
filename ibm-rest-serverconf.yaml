@@ -1,0 +1,21 @@
+ResourceManagers:
+  JVM:
+    truststoreType: 'JKS'
+    truststoreFile: '/home/aceuser/ace-server/truststore.jks'
+    truststorePass: 'setdbparms::truststore'
+
+    keystoreType: 'JKS'
+    keystoreFile: '/home/aceuser/ace-server/keystore.jks'
+    keystorePass: 'setdbparms::keystore'
+
+  HTTPSConnector:
+    ReqClientAuth: true
+    CipherSpec: 'TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384'
+
+Defaults:
+  Policies:
+    HTTPSConnector: 'HTTPS'
+
+serverConfVersion: 1
+forceServerHTTPS: true
+forceServerHTTPSecurityProfile: 'SecProfLocal'
