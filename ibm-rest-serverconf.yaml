@@ -1,11 +1,11 @@
 ResourceManagers:
   JVM:
     truststoreType: 'JKS'
-    truststoreFile: '/home/aceuser/ace-server/truststore.jks'
+    truststoreFile: '/home/aceuser/truststores/ibm-ca.jks'
     truststorePass: 'setdbparms::truststore'
 
     keystoreType: 'JKS'
-    keystoreFile: '/home/aceuser/ace-server/keystore.jks'
+    keystoreFile: '/home/aceuser/keystores/ibm-ace-server.jks'
     keystorePass: 'setdbparms::keystore'
 
   HTTPSConnector:
