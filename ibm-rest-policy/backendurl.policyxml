@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policies>
   <policy policyType="UserDefined" policyName="backendurl" policyTemplate="UserDefined">
-    <soapEndpoint>https://soapserver.tools.svc/ws</soapEndpoint>
+    <soapEndpoint>https://soapserver.tools.svc:8443/ws</soapEndpoint>
   </policy>
 </policies>
