@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <policies>
   <policy policyType="UserDefined" policyName="backendurl" policyTemplate="UserDefined">
-    <soapEndpoint>https://soapserver-soapserver.ace-prod-ref-6ccd7f378ae819553d37d5f2ee142bd6-0000.us-east.containers.appdomain.cloud/ws</soapEndpoint>
+    <soapEndpoint>https://soapserver.tools.svc/ws</soapEndpoint>
   </policy>
 </policies>
