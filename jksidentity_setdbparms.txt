@@ -1,2 +1,0 @@
-mqsisetdbparms -w /home/aceuser/ace-server -n setdbparms::truststore -u "truststorepwd" -p passw0rd
-mqsisetdbparms -w /home/aceuser/ace-server -n setdbparms::keystore -u "keystorepwd" -p passw0rd
