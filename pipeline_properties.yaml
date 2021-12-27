@@ -1,0 +1,6 @@
+integrationServer:
+  configurations:
+    serverconf:
+      - ibm-rest-serverconf.yaml
+    policyproject:
+      - ibm-rest-policy
