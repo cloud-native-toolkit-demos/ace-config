@@ -1,6 +1,6 @@
 integrationServer:
   configurations:
     serverconf:
-      - ibm-rest-serverconf.yaml
+      - create-customer-policy
     policyproject:
-      - ibm-rest-policy
+      - create-customer-policy
